@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <t t-name="DemoService" owl="1">
+        <div>
+            Partner List
+            <ol>
+                <t t-foreach="partners.records" t-as="partner">
+                    <li t-esc="partner.name"/>
+                </t>
+            </ol>
+        </div>
+    </t>
+
+</odoo>

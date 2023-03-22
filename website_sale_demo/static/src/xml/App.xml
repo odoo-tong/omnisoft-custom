@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <t t-name="DemoApp" owl="1">
+        <div class="border border-primary">
+            <div>I am using Owl.js framework</div>
+            <Counter increment="1" />
+            <Service />
+        </div>
+    </t>
+
+</odoo>

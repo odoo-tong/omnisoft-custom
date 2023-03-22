@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="product" inherit_id="website_sale.product">
+        <xpath expr="//div[@id='add_to_cart_wrap']" position="after">
+            <div>I am using old js framework</div>
+            <div id="demoApp" />
+        </xpath>
+    </template>
+
+</odoo>
