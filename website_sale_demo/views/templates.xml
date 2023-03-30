@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="product_attachment" inherit_id="website_sale.product" name="Add Attachment">
+      <xpath expr="//div[@id='add_to_cart_wrap']" position="before">
+        <div t-attf-class="input-group me-2 mb-2 align-middle #{'input-group-lg' if ctaSizeBig else ''}" contenteditable="false">
+            <input type="file" class="form-control" data-min="1" name="attachment" id="attachment"/>
+            <label class="input-group-text" for="attachment">Upload</label>
+        </div>
+      </xpath>
+    </template>
+
+</odoo>
